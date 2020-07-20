@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Number40_1 {
 
 	public static void main(String[] args) {
-		// 40. 교집합 (투포인트 알고리즘)
+		// 40_1. 교집합 (투포인트 알고리즘)
 		// 두 집합 A, B가 주어지면  두 집합의 교집합을 출력하는 프로그램을 작성하세요.
 		// 교집합은 오름차순으로 정렬하시오.
 		Scanner stdIn = new Scanner(System.in);    
