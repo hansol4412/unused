@@ -28,7 +28,8 @@ public class Number61_1 {
 			DFS(L+1, total-a[L], a, ch);
 		}
 		
-		return num;
+		if(num==0) return -1;
+		else return num;
 	}
 	public static void main(String[] args) {
 		// 61_1. 특정 수 만들기 (DFS)
@@ -45,7 +46,9 @@ public class Number61_1 {
 		for(int i =1; i<=n; i++) {
 			a[i] = stdIn.nextInt();
 		}
+		
 		System.out.println("조합의 갯수는 "+DFS(1, 0, a, ch)+"개 입니다.");
+		
 
 	}
 
