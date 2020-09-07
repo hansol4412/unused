@@ -28,7 +28,8 @@ int DFS(int L, int sum){
 	ch[L]=-1;
 	DFS(L+1, sum-a[L]);
 	}
-return cnt;
+	if(cnt==0) return -1;
+	else return cnt;
 }
 
 int main() { 
