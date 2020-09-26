@@ -28,7 +28,7 @@ public class Number65 {
 	public static void main(String[] args) {
 		// 65. 미로탐색 (DFS)
 		/*  자연수  N이 주어지면 n*n 격자판 미로를 탈출하는 경로의 가지수를 출력하는 프로그램을 작성하시오.
-		       출발점은 (1,1) 좌표이고 도착점은 (7,7)좌표이다. 격자판의 1은 벽이고 0은 통로이다/
+		       출발점은 (1,1) 좌표이고 도착점은 (n,n)좌표이다. 격자판의 1은 벽이고 0은 통로이다/
 		       격자판의 움직임은 상하좌우만 움직인다. */
 		Scanner stdIn = new Scanner(System.in);
 		System.out.print("n을 입력하세요:");
