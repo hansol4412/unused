@@ -24,7 +24,7 @@ public class Number64_1 {
 		return cnt;
 	}
 	public static void main(String[] args) {
-		// 64_1. 경로탐색
+		// 64_1. 경로탐색 (인접행렬)
 		// 방향그래프가 주어지면 1번 정점에서 N번 정접까지 가는 모든 경로의 가지수를 출력하는 프로그램을 작성하세요.
 		// 방향그래프의 경로를 모두 출력하시오
 				Scanner stdIn = new Scanner(System.in);

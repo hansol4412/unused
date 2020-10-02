@@ -20,7 +20,7 @@ public class Number64 {
 	}
 	
 	public static void main(String[] args) {
-		//64. 경로탐색
+		//64. 경로탐색 (인접행렬)
 		// 방향그래프가 주어지면 1번 정점에서 N번 정접까지 가는 모든 경로의 가지수를 출력하는 프로그램을 작성하세요.
 		Scanner stdIn = new Scanner(System.in);
 		System.out.print("정점의 수를 입력하세요:");
